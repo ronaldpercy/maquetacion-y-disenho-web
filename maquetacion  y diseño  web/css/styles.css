@@ -1,0 +1,84 @@
+*{
+	margin: 4px auto;
+	padding: 0;
+}
+body, .cuerpo{
+	background: url(../images/fondobody.png);
+}
+footer{
+	height: 60px;
+}
+header, nav, section,footer{
+	background: #1e6161;
+	width: 94%;
+}
+header{
+	background: url(../images/p71.jpg);
+	background-size: 100% 100%;
+	box-shadow: 0 0 30px skyblue inset,0 0 10px black inset,2px 2px 7px black;
+}
+nav, nav ul li,footer{
+	background: rgb(69,72,77); /* Old browsers */
+	background: -moz-linear-gradient(top,  rgba(69,72,77,1) 0%, rgba(0,0,0,1) 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(69,72,77,1)), color-stop(100%,rgba(0,0,0,1))); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  rgba(69,72,77,1) 0%,rgba(0,0,0,1) 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+	
+}
+nav ul{
+	margin-right: 2%;
+	width: 50%;
+}
+nav ul li{
+	color: #5bccf1;
+	display: inline-block;
+	list-style-type: none;
+	padding: 9px 2px;
+	width: 23%;
+	-webkit-transition:all 0.5s ease-in-out;
+	-moz-transition:all 0.5s ease-in-out;
+	-o-transition:all 0.5s ease-in-out;
+	-ms-transition:all 0.5s ease-in-out;
+	transition:all 0.5s ease-in-out;
+}
+nav ul li:hover{
+	cursor: pointer;
+	box-shadow: 0 0 40px black inset, 0 0 1px white;
+	color:white;
+}
+.articulos, .slider{
+	background: salmon;
+	height: 250px;
+	width: 94%;
+}
+.articulos{
+	height: auto;
+}
+.columnas{
+	background: rgba(170,170,170,0.8);
+	display: inline-block;
+	margin: 10px auto;
+	text-align: justify;
+	padding: 15px;
+	width: 28%;
+}
+.banner, .logo{
+	background:none;
+	display: inline-block;
+	height: 130px;
+	margin:8px auto;
+	width: 60%;
+}
+.logo{
+	background: url(../images/imagen3.png)no-repeat;
+	background-size: 100% 100%;
+	width: 35%;
+}
+.todo{
+	background: url(../images/fondobody.png);
+	text-align: center;
+	width:90%;
+}
